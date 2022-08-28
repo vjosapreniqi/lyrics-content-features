@@ -22,7 +22,7 @@ Whereas, the `py_scripts` folder contains the python code for lyrics scraping us
 
 ## Citation
 ```bibtex
-@article{preniqi2022morals,
+@article{preniqi2022lyrics&morals,
     title={{"More Than Words": Linking Music Preferences and Moral Values through Lyrics}},
     author={Preniqi, Vjosa and Kalimeri, Kyriaki and Saitis, Charalampos},
     journal={Proceedings of the 23rd International Society for Music Information Retrieval Conference},
