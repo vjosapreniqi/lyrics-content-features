@@ -4,6 +4,7 @@
 This directory contains the lyrics data and the code for lyrical feature modeling from our paper that have been accepted to the 23rd International Society
 for Music Information Retrieval Conference ([ISMIR 2022](https://ismir2022.ismir.net/)).
 Due to the privacy issues here we share only the partial implementation discussed in our paper. 
+</div>
 
 ## Install:
 
