@@ -15,7 +15,7 @@ pip install -r requirements.txt
 ## Data:
 In this directory, we have added the initial `artist page names` that were liked by the _LikeYouth_ (read more about this data [here](https://www.isi.it/media/255)) participants on Facebook.  Also, we have provided the best obtained LDA model file and the topic visualisation (.html) file. 
 
-To get access to artists' lyrics and the lyrics' content features, please download the data as a `zip file` from the [Lyrics_annotated_data](https://osf.io/kftqr/files/osfstorage) hosted in the [OSF](https://osf.io/kftqr/files/osfstorage) directory. When cloning/downloading the repo, add the `.csv files` into this directory to re-run the experiments we described. When using the initial `artist_lyrics_initial_dt.csv` and re-running the scripts we have provided here, you should be able to reproduce the `artist_lyrics_annotated_vader_nrc_moralStrength_lda_final_dt.csv` we shared [here](https://osf.io/kftqr/files/osfstorage).
+To get access to artists' lyrics and the lyrics' content features, please download the data as a `zip file` from the [Lyrics_annotated_data](https://osf.io/kftqr/files/osfstorage) hosted in the [OSF](https://osf.io/kftqr/files/osfstorage) directory. When cloning/downloading the repo, add the `.csv files` into this directory to re-run the experiments we described. When using the initial `artist_lyrics_initial_dt.csv` and re-running the scripts we have provided here, you should be able to reproduce the `artist_lyrics_annot_vader_nrc_moralStrength_lda_final_dt.csv` we shared [here](https://osf.io/kftqr/files/osfstorage).
 
 ## Implementation:
 The `notebooks` directory contains the Jupyter scripts for obtaining lyrics features: 
