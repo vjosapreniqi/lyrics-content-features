@@ -1,4 +1,4 @@
-<h1 align="center">Lyrics annotation: sentiment analysis, emotion association, moral strength and topic modelling</h1>
+<h1 align="center">Lyrics annotation: sentiments, emotions association, morals, and topic modelling</h1>
 <div align="center">
 </div>
 
