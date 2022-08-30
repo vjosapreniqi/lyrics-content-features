@@ -1,4 +1,4 @@
-<h1 align="center">"More Than Words": Linking Music Preferences and Moral Values Through Lyrics</h1>
+<h1 align="center">Lyrics annotation: sentiment analysis, emotion association, moral strength and topic modelling</h1>
 <div align="center">
 </div>
 
