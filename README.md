@@ -13,14 +13,17 @@ To reuse this repo, install the requested libraries
 pip install -r requirements.txt
 ```
 ## Data:
-In the data folder you can find all the .csv files that contain song lyrics and the features scores. Also, we have added the best obtained LDA model file the Topic Visualisation (.html) file. 
+In this repo, we share artists' lyrics and the content features we have extracted. The artists were selected based on the artist page names liked on Facebook by the _LikeYouth_ participants (this is the main dataset we use, please read the paper for more info about this data).
+In the data directory, we have added  the .csv file of artist page names and the directions to download artists' lyrics and features scores. Also, we have provided the best obtained LDA model file and the topic visualisation (.html) file. 
 
 ## Implementation:
-The `notebooks` directiory contains the jupiter scripts for obtaining lyrics features: 
-sentiment analysis with ([VADER](https://github.com/cjhutto/vaderSentiment)), emotion associations with ([NRC lexicon](https://saifmohammad.com/WebPages/AccessResource.htm)), moral scores with ([MoralStrength](\https://github.com/oaraque/moral-foundations)) lexicon) and modell lyrics topics using LDA topic modelling.
-Whereas, the `py_scripts` folder contains the python code for lyrics scraping using ([Genius API](https://docs.genius.com/)) cleaning and preprocessing and language detection using ([spaCy](https://spacy.io/)).
+The `notebooks` directory contains the Jupyter scripts for obtaining lyrics features: 
+sentiment analysis with [VADER](https://github.com/cjhutto/vaderSentiment), emotion associations with 
+[NRC lexicon](https://saifmohammad.com/WebPages/AccessResource.htm), moral scores with [MoralStrength](\https://github.com/oaraque/moral-foundations)) lexicon and lyrics topics using LDA topic modeling.
+Whereas, the `py_scripts` folder contains the python code for lyrics scraping using [Genius API](https://docs.genius.com/) cleaning and preprocessing and language detection using [spaCy](https://spacy.io/).
 
-## Citation
+
+<!-- ## Citation
 ```bibtex
 @article{preniqi2022lyrics_and_morals,
     title={{"More Than Words": Linking Music Preferences and Moral Values through Lyrics}},
@@ -29,3 +32,4 @@ Whereas, the `py_scripts` folder contains the python code for lyrics scraping us
     year={2022}
 }
 ```
+ -->
