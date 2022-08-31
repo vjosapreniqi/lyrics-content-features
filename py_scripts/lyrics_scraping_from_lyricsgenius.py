@@ -62,4 +62,4 @@ df = pd.DataFrame(columns = ['artist', 'title', 'lyrics'])
 for i in range(len(liked_artists)):
     df0 = search_lyrics_from_api(liked_artists['Artist'][i], 10, access_token)
     df = pd.concat([df,df0])
-    df.to_csv('../data/artists_original_lyrics_test.csv', index = None)
+    df.to_csv('../data/artist_lyrics_initial_dt.csv', index = None)
